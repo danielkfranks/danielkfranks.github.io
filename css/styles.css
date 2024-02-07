@@ -1,0 +1,38 @@
+/* mostly borrowed from w3schools, but I put my own spins on it */
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #36393f;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.active{
+	background-color: #808080;
+}
+
+
+#footer-content{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
